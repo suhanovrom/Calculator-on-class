@@ -45,7 +45,6 @@
                     { rowClass: "fourth-raw", buttons: [{ className: "number",secondClassName:"one", content: "1" }, { className: "number",secondClassName:"two", content: "2" }, { className: "number", secondClassName:"three",content: "3" }, { className: "operators",secondClassName:"plus", content: "+" }] },
                     { rowClass: "fifth-raw", buttons: [{ className: "number",secondClassName:"zero", content: "0" }, { className: "operators",secondClassName:"pi", content: "Π" }, { className: "operators",secondClassName:"dot", content: "." }, { className: "operators",secondClassName:"bracket1", content: "(" }, { className: "operators",secondClassName:"bracket2", content: ")" }, { className: "operators",secondClassName:"equals", content: "=" }] }
                 ];
-
                 rows.forEach(row => {
                     this.backgroundDiv.appendChild(this.createRow(row.rowClass, row.buttons));
                 });
